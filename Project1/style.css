@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    
+  
+    
+
+}
+.background{
+    height:700px;
+    width:100%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-image: linear-gradient( to bottom right,#141E46, rgb(246, 147, 164));
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+
+.Navbar{
+    background-color: transparent;
+    height: 60px;
+    width: 99.7rem;
+    
+    border: 2px solid whitesmoke;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    position: sticky;
+
+}
+
+.nav-left{
+    font-size: 25px;
+    margin-left: 30px;
+
+    }
+
+
+    .logo{
+        color: white;
+    }
+
+
+    .searchbar{
+        margin-left: 100px;
+        display: flex;
+
+
+    }
+    
+    .input_type{
+        margin-left: 50px;
+        height: 35px;
+        width: 450px;
+        font-size: 18px;
+        border: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        outline-style: none;
+    
+    }
+    input:focus{
+        border: 2px solid rgb(90, 90, 255);
+        font: none;
+    }
+    
+    .search-logo{
+        background-color: rgb(234, 189, 10);
+        font-size: 20px;
+        height: 35px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+
+        border-bottom-right-radius: 5px;
+    }
+
+
+.nav-right{
+    font-size: 20px;
+    margin-left: 300px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Home{
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.Home:hover{
+    background-color: rgb(64, 204, 235);
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.About{
+
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.About:hover{
+    background-color: rgb(64, 204, 235);
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.Help{
+
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.Help:hover{
+    background-color: rgb(64, 204, 235);
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.ContactUs{
+
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.ContactUs:hover{
+    background-color: rgb(64, 204, 235);
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+.hero-section{
+    /* border-radius: 200px; */
+    display: flex;
+
+
+}
+.left{
+    margin-top: 180px;
+    margin-left: 100px;
+
+    color: white;
+    
+}
+.hero-section,p{
+    /* margin-top: 30px; */
+
+     color: rgba( 249, 247, 237,8); 
+    
+
+}
+
+.shop_now{
+    height: 40px;
+    width: 140px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 30px;
+    background-image: linear-gradient(to right bottom,rgb(73, 7, 97), rgb(229, 12, 131));
+
+    /* background-image: linear-gradient( to right,rgba(5, 5, 90, 0.348), rgb(246, 52, 194)); */
+    border: none;
+    border-radius: 6px;
+
+}
+
+.shop_now:active{
+
+    height: 40px;
+    width: 150px;
+    filter: drop-shadow(6px 6px rgb(205, 205, 205));
+
+}
+
+
+
+
+.watches{
+    margin-top: 300px;
+}
+
+
+.bigwatch{
+    margin-top: 50px;
+    margin-left: 150px;
+    background-image: 200px;
+    filter: drop-shadow(10px 20px 10px rgb(238, 238, 238));
+    
+}
+
+.radio{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#selector{
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.card{        
+        height: 250px;
+        width: 370px;
+        margin-top: 18px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+
+    /* background-image: linear-gradient(to right bottom,rgb(73, 7, 97), rgb(229, 12, 131)); */
+    background-image: linear-gradient( to bottom right,#141E46, rgb(246, 147, 164));
+       
+    display: flex;
+
+
+}
+
+.cardimg{
+    /* background-color: aqua; */
+    border-radius: 10px;
+    width: 200px;
+
+    margin-left: -60px;
+    margin-bottom: -50px;
+}
+
+.price{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.price,b{
+    color: rgb(231, 216, 216);
+    font-size: 18px;
+}
+.price,p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(231, 216, 216);
+}
+
+
+.watches{
+    margin-top: -70px;
+    margin-bottom: 100px;
+    display: flex;
+    /* width: 100vw; */
+}
+
+
+.row2{
+
+height: 300px;
+width: 100%;
+margin-bottom: 20px;
+background-image: linear-gradient( to bottom right,rgb(170, 230, 223), rgb(150, 246, 187));
+
+
+}
+.row2 img{
+    width: 100rem;
+    height: 18.8rem;
+}
+
+.row3{
+    height: 300px;
+width: 100%;
+margin-bottom: 20px;
+/* background-image: linear-gradient( to bottom right,rgb(170, 230, 223), rgb(150, 246, 187)); */
+background-image: linear-gradient( to bottom right,rgb(170, 230, 223), rgb(255, 224, 167));
+
+
+display: flex;
+
+}
+
+.footer{
+    /* margin-top: 100px; */
+
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    
+
+  }
+
+.customer-service{
+    padding-top: 70px;
+
+    height: 250px;
+    width: 200px;
+    /* background-color: red; */
+    margin-left: 60px;
+    
+    
+
+}
+
+.heading{
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    
+    margin-bottom: 20px;
+    
+    
+}
+
+.list{
+    color: rgb(90, 89, 89);
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 35px;
+
+}
+
+
+.App{
+    margin-top: 70px;
+    /* background-color: aqua; */
+    height: 270px;
+    width: 450px;
+    color: white;
+    background-color: black;
+    
+
+}
+
+.play-store{
+    display: flex;
+    align-items: center;
+}
+
+.follow{
+    margin-top: 0px;
+}
+
+
+
+
+hr{
+    margin-top: px;
+    font-weight: 200;
+    background-color:aliceblue;
+}
+
+.payment-methods{
+    height: 150px;
+ 
+    display: block;  
+  background-color: black;
+  
+}
+
+.term{
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+
+ 
+.term, a{
+    color: rgb(90, 89, 89);
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+    line-height: 35px;
+} 
+
+.Banks{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.bank-img{
+    height: 60px;
+    width: 70px;
+    background-color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+
+}
